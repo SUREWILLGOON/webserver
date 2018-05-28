@@ -8,7 +8,7 @@
 #include "respone/respone.h"
 #include "servertypes.h"
 #include "log/log.h"
-//#define DAEMON_BOOT
+//#define 
 int setnonblocking(int fd)
 {
     int old_option = fcntl(fd, F_GETFL);
